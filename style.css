@@ -1,13 +1,36 @@
 @media (max-width: 480px) {
+.top-bar {
+    font-size: 18px;
+  }
+
+  .container {
+    margin: 5px;
+  }
+
+  .first {
+    padding: 10px;
+  }
+
+  .photo-prof {
+    height: auto;
+    width: 50%; /* Adjust image width for mobile */
+  }
+
+  .my-description {
+    font-size: 16px; /* Further reduce font size for smaller screens */
+  }
+
 }
 
 body {
   background-color: rgb(83, 173, 252);
+   margin: 0;
+  padding: 0;
 }
 
 .top-bar {
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding: 20px 0;
+  text-align: center;
   background-color: rgb(83, 173, 252);
   height: 100px;
   font-size: 80px;
