@@ -1,0 +1,166 @@
+@media (max-width: 480px) {
+}
+
+body {
+  background-color: rgb(83, 173, 252);
+}
+
+.top-bar {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: rgb(83, 173, 252);
+  height: 100px;
+  font-size: 80px;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik Iso", cursive;
+  font-family: "Shadows Into Light", cursive;
+  color: rgb(246, 181, 60);
+}
+.container {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  height: 500px;
+}
+.first {
+  width: 60px;
+  margin-left: 200px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  background-color: rgb(190, 180, 180);
+  box-shadow: 20px 20px 20px gray;
+}
+.null {
+  background-color: rgb(83, 173, 252);
+}
+.resume {
+  background-color: white;
+}
+.experience {
+  background-color: white;
+}
+.work {
+  background-color: white;
+}
+.contact {
+  background-color: white;
+}
+.first > p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+.second {
+  border-left: 2px solid rgb(241, 231, 231);
+  background-color: white;
+  margin-right: 15px;
+  box-shadow: 20px 20px 20px gray;
+}
+.img-class {
+  background-color: white;
+}
+.photo-prof {
+  padding-top: 20px;
+  border-radius: 150px;
+}
+
+#abc {
+  padding-left: 30px;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+#abcd {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(51, 192, 239);
+  font-size: 20px;
+}
+.third {
+  background-color: white;
+  box-shadow: 20px 20px 20px gray;
+}
+.down-bar {
+  background-color: violet;
+}
+.abt-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 250px;
+}
+.my-description {
+  padding-left: 5px;
+  text-justify: auto;
+  background-color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.my-details {
+  border-left: 2px solid rgb(241, 231, 231);
+}
+.age {
+  color: white;
+  font-size: 16px;
+  background-color: rgb(73, 192, 73);
+  width: 100px;
+  height: 50px;
+}
+.a {
+  padding-left: 15px;
+  font-size: 26px;
+}
+.Education {
+  color: white;
+  font-size: 16px;
+  background-color: rgb(73, 192, 73);
+  width: 100px;
+  height: 50px;
+}
+.b {
+  padding-left: 15px;
+  font-size: 26px;
+}
+.Residence {
+  color: white;
+  font-size: 16px;
+  background-color: rgb(73, 192, 73);
+  width: 100px;
+  height: 50px;
+}
+.c {
+  padding-left: 15px;
+  font-size: 26px;
+}
+
+.About-me {
+  font-family: "Libre Baskerville", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 30px;
+  color: rgb(73, 192, 73);
+  padding-left: 20px;
+}
+.extra-space {
+  width: 600px;
+  height: 400px;
+}
+
+.backend {
+  background-color: aqua;
+}
+.C {
+  background-color: blue;
+}
+.javascript {
+  background-color: coral;
+}
+.java {
+  background-color: chartreuse;
+}
+.cpp {
+  background-color: black;
+}
